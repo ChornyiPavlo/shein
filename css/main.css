@@ -2938,6 +2938,7 @@ ul.social-media li a i:hover {
     text-align: center;
     color: #787878;
     letter-spacing: 1.5pt;
+    white-space: nowrap;
 }
 
 
