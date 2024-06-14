@@ -1780,6 +1780,23 @@ ul.client-thumb-2 li a img:hover{
     clear: both;
 }
 /* Filter Button */
+.link-btn {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 20px 50px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button a:hover {
+    background: #86eecb;
+    color: #333;
+}
 .nav {
     -webkit-backface-visibility: hidden;
     -o-backface-visibility: hidden;
@@ -2917,7 +2934,6 @@ ul.social-media li a i:hover {
     color: #7beec7;
 }
 .copyright-mark {
-    margin-top: 50px;
     display: block;
     text-align: center;
     color: #787878;
